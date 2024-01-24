@@ -1,0 +1,52 @@
+
+*{
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Rubik', sans-serif;
+}
+body {
+  margin: 0;
+}
+h1, h2, h3, p, ul, hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+input, select, button {
+  font-family: inherit;
+}
+input {
+  outline: 0;
+}
+img {
+  display: block;
+  width: 100%;
+}
+button {
+  cursor: pointer;
+}
+.section{
+  padding: 3em;
+  background-color: green;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.section__title{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.description__us{
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  text-align: justify;
+}
+

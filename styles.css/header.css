@@ -1,0 +1,39 @@
+.header{
+    background-color: red;
+}
+
+.nav__bar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__bar__img{
+    width: 100%;
+    max-width: 200px;
+    
+
+
+}
+
+.nav__bar__menu{
+    background-color: antiquewhite;
+    display:flex;
+    padding: 0.5em;
+    column-gap: 1em;
+    align-items: center;
+
+}
+
+.nav__menu__item{
+    background-color: aqua;
+    padding: 0.5em;
+
+
+}
+
+.front__page{
+    background-color: blueviolet;
+    height: 90vh;
+
+}
