@@ -14,20 +14,21 @@
     <title>Equivalle</title>
 </head>
 <body>
+    <nav class="nav__bar">
+        <!--img class="nav__bar__img" src="./assets/equivalleLogo.png"alt="logoEquivalle"/-->
+        <ul class="nav__bar__menu">
+            <li class="nav__menu__item">Inicio</li>
+            <li class="nav__menu__item">Catalogo</li>
+            <li class="nav__menu__item">Contacto</li>
+        </ul>
+    </nav>
     <header class="header">
-        <nav class="nav__bar">
-            <img class="nav__bar__img" src="./assets/equivalleLogo.png" alt="logoEquivalle"/>
-            <ul class="nav__bar__menu">
-                <li class="nav__menu__item">Inicio</li>
-                <li class="nav__menu__item">Catalogo</li>
-                <li class="nav__menu__item">Contacto</li>
-            </ul>
-        </nav>
+      
         <article class="front__page">
-            <img src="" alt="pendiente"/>imgen presentacion slide
+            <img class="front__page__img" src="./assets/equivalle1200.png" alt="pendiente"/>
         </article>
     </header>
-    <hr/>
+    
     <section class="section us">
         <h2 class="section__title">Que Hacemos</h2>
         <p class="description__us">Somos una empresa vallecaucana con más de 7 años de experiencia en el sector industrial, especializa en el alquiler de herramientas y maquinaria.</p>
@@ -39,7 +40,9 @@
         <ul class="contaniner__pvalue">
             <li class="card__pvalue">
                 <h3  class="card__pvalue__title">Respuesta Rapida</h3>
-                <span class="icons__proposal__value material-symbols-outlined ">support_agent</span>
+                <span class=" icons__proposal__value material-symbols-outlined">
+                    communication
+                    </span>
                 <p class="proposal__valor__info">Respondemos oportunamente a tus pedidos, preguntas.</p>
             </li>
             <li class="card__pvalue">
@@ -51,17 +54,52 @@
             </li>
             <li class="card__pvalue">
                 <h3 class="card__pvalue__title">Asesoramiento y Servicio</h3>
+                <span class="icons__proposal__value material-symbols-outlined ">support_agent</span>
             </li>
         </ul>
     </section>
     <hr/>
     <section class="section prefer__us">
-        <h2 class="section__title">Ellos nos prefieren</h2>
+        <h2 class="section__title">Ellos nos prefieren</h2>Aqui puede o no ir algunos logos de tus clientes recurrentes
     </section>
     <hr/>
 
     <section class="section contact__us">
         <h2 class="section__title">Cotiza con nosotros</h2>
+        <form action="">
+            <ul>
+                <li class="close__dialog">
+                    <button type="button" id="form__button_close" >X
+                    </button>
+                </li>
+                <li><h4>Si deseas contactarme no dudes en dejar tu mensaje</h4></li>
+
+                <li>
+                    <label for="name" id="name">Nombre</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label for="lastName" id="lastName">Apellido</label>
+                    <input type="text">
+                </li>
+                <label for="email" id="email">Correo</label>
+                <input type="email">
+                <li>
+                    <label for="subject">Asunto</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label for="message">Deja tu mensaje</label>
+                    <textarea rows="5" cols="21" ></textarea>
+                </li>
+                <button type="submit">Send</button>
+
+
+                <button id="jsbutton">JS close</button>
+                <button type="reset">Reset</button>
+            </ul>
+
+        </form>
     </section>
     <hr/>
 
