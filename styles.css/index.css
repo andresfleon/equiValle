@@ -30,16 +30,18 @@ button {
   cursor: pointer;
 }
 .section{
+  margin: auto auto;
   padding: 3em;
-  background-color: green;
+  background-color: #009640;
   text-align: center;
   margin-top: 1.5em;
+  width: 80%;
 }
 
 .section__title{
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -49,4 +51,5 @@ button {
   line-height: 1.5em;
   text-align: justify;
 }
+
 

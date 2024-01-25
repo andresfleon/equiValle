@@ -1,0 +1,26 @@
+.faqs{
+    gap: 0.5em;
+}
+
+.faqs__item{
+    background-color: white;
+    margin-bottom: 0.5em;
+    font-size: 1.5rem;
+    padding:0.7em;
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .faqs__item__question{
+    list-style-type: none;
+  }
+
+  .faqs__items__answer{
+    margin-top: 0.5em;
+    text-align: justify;
+  }
+  .hr__faqs{
+    width: 100%;
+    border: 1px solid black;
+   
+  }

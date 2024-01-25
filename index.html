@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="./styles.css/index.css">
     <link rel="stylesheet" type="text/css" href="./styles.css/header.css">
     <link rel="stylesheet" type="text/css" href="./styles.css/pvalor.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css/form.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css/faqs.css">
 
     <title>Equivalle</title>
 </head>
@@ -28,14 +30,14 @@
             <img class="front__page__img" src="./assets/equivalle1200.png" alt="pendiente"/>
         </article>
     </header>
-    
-    <section class="section us">
+    <section>
+    <article class="section us">
         <h2 class="section__title">Que Hacemos</h2>
         <p class="description__us">Somos una empresa vallecaucana con más de 7 años de experiencia en el sector industrial, especializa en el alquiler de herramientas y maquinaria.</p>
 
-    </section>
+    </article>
     <hr/>
-    <section class="section proposal__valor">
+    <article class="section proposal__valor">
         <h2 class="section__title">Propuesta de valor</h2>
         <ul class="contaniner__pvalue">
             <li class="card__pvalue">
@@ -57,55 +59,74 @@
                 <span class="icons__proposal__value material-symbols-outlined ">support_agent</span>
             </li>
         </ul>
-    </section>
+    </article>
     <hr/>
-    <section class="section prefer__us">
+
+    <article class="section prefer__us">
         <h2 class="section__title">Ellos nos prefieren</h2>Aqui puede o no ir algunos logos de tus clientes recurrentes
-    </section>
+</article>
     <hr/>
 
-    <section class="section contact__us">
+    <article class="section contact__us">
         <h2 class="section__title">Cotiza con nosotros</h2>
-        <form action="">
-            <ul>
-                <li class="close__dialog">
-                    <button type="button" id="form__button_close" >X
-                    </button>
-                </li>
-                <li><h4>Si deseas contactarme no dudes en dejar tu mensaje</h4></li>
+        <form class="form__container" action="">
+            <ul class="form__list">               
 
-                <li>
-                    <label for="name" id="name">Nombre</label>
-                    <input type="text">
+                <li class="container__info__label">
+                    <label class="form__label__info" for="name" id="name">Nombre</label>
+                    <input class="form__input__info" type="text">
+                </li>
+                <li class="container__info__label">
+                <label class="form__label__info" for="email" id="email">Correo</label>
+                <input class="form__input__info" type="email">
                 </li>
                 <li>
-                    <label for="lastName" id="lastName">Apellido</label>
-                    <input type="text">
+                    
                 </li>
-                <label for="email" id="email">Correo</label>
-                <input type="email">
-                <li>
-                    <label for="subject">Asunto</label>
-                    <input type="text">
-                </li>
-                <li>
-                    <label for="message">Deja tu mensaje</label>
+                
+                <li class="container__info__label">
+                    <label class="form__label__info" for="message">Deja tu mensaje</label>
                     <textarea rows="5" cols="21" ></textarea>
                 </li>
-                <button type="submit">Send</button>
-
-
-                <button id="jsbutton">JS close</button>
-                <button type="reset">Reset</button>
-            </ul>
+                <button class="form__label__info" type="submit">Send</button>
+             </ul>
 
         </form>
-    </section>
+    </article>
     <hr/>
+    </section>
 
     <section class="section faqs">
-        <h3>Preguntas Frecuentes</h3>
+        <h3 class="section__title">Preguntas Frecuentes</h3>
+        <details class="faqs__item">
+            <summary class="faqs__item__question">¿Qué necesito para alquila?</summary>
+            <hr class="hr__faqs">
+            <p class="faqs__items__answer">Si usted es un particular, le pedimos que nos presente su DNI y 2 servicios fijos de su casa a nombre suyo. Los servicios pueden ser: ABL, Rentas, Municipal, Agua, Luz, Gas o teléfono fijo. Depende de la herramienta que se necesite. Para eso un vendedor lo asesorara llegado el momento.
+                Si es una empresa, debe venir por primera vez un titular o apoderado de la firma con el estatuto o el poder donde figure, su DNI y un servicio a nombre de la empresa para corroborar domicilio </p>
+        </details>
+        <details class="faqs__item">
+            <summary class="faqs__item__question">¿Cómo sé que las herramientas andan?</summary>
+            <hr class="hr__faqs">
+            <p class="faqs__items__answer">oda máquina con motor se prueba delante del cliente para darle la tranquilidad de que se la lleva funcionando.
+                Al devolver la máquina, la misma pasa por un proceso de revisión en nuestros talleres.</p>
+        </details>
+        <details class="faqs__item">
+            <summary class="faqs__item__question">¿Qué pasa si se me rompe la máquina cuando la estoy usando?</summary>
+            <hr class="hr__faqs">
+            <p class="faqs__items__answer">Al momento del alquiler usted firma un pagaré en garantía por la mercadería en cuestión. El mismo solo tiene validez si la misma desaparece o nunca regresa a la empresa. En caso de rotura del equipo, se recambia al instante para que el cliente pueda continuar con el trabajo sin obstáculos y nuestros mecánicos evaluarán en taller si el mal funcionamiento ha sido producto del mal uso por parte del cliente o por parte de un desgaste propio del elemento.</p>
+        </details>
+        <details class="faqs__item">
+            <summary class="faqs__item__question">¿Como hago mi pedido?</summary>
+            <hr class="hr__faqs">
+            <p class="faqs__items__answer">Nos llamas o escribes por Whatsapp y te responderemos con la mayor agilidad. La cotización te la enviamos por Whatsapp o por correo electrónico; con tu aceptación y el envío de la documentación a la que haya lugar, te despachamos a la mayor brevedad posible.</p>
+        </details>
+        <details class="faqs__item">
+            <summary class="faqs__item__question">¿En qué ciudades prestan el servicio de alquiler?</summary>
+            <hr class="hr__faqs">
+            <p class="faqs__items__answer">En Cali, Jamundi, Yumbo y sus alrededores</p>
+        </details>
     </section>
+
     <hr/>
 
 
