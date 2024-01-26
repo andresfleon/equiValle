@@ -1,0 +1,32 @@
+.container__products{
+    position: absolute;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.product__card{
+    min-width:300px ;
+    max-width: 300px;
+    border: 2px solid #009640;
+    padding: 0.3em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient( white 0%, #009640 100%);
+    border-radius: 0 20px 0 20px;
+}
+
+.product__card__title{
+    text-align: center;
+    background-color: #009640;
+    margin-bottom: 0.5em;
+}
+
+.product__card__img{
+    position: relative;
+    bottom: -25px;
+        
+}
