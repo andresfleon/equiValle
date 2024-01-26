@@ -35,7 +35,7 @@ button {
   color: #009640;
   text-align: center;
   margin-top: 1.5em;
-  width: 80%;
+  width: 90%;
 }
 
 .section__title{
@@ -58,4 +58,15 @@ button {
   border: 0.1em solid black;
 }
 
+@media (min-width: 300px) and (max-width:1000px){
 
+  .section{
+    margin: auto auto;
+    padding: 0;
+    color: #009640;
+    text-align: center;
+    margin-top: 1.5em;
+    width: 100%;
+  }
+
+}
