@@ -3,12 +3,13 @@
 }
 
 .faqs__item{
-    background-color: white;
     margin-bottom: 0.5em;
     font-size: 1.5rem;
     padding:0.7em;
     display: flex;
     border-radius: 10px;
+    background-color: #009640;
+    color: white;
   }
 
   .faqs__item__question{
@@ -20,7 +21,8 @@
     text-align: justify;
   }
   .hr__faqs{
+    margin-top: 0.5em;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid white;
    
   }

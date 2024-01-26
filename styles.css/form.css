@@ -2,7 +2,19 @@
 
 display: flex;
 flex-direction: column;
-align-items: center;}
+align-items: center;
+background-color:  #009640;
+width: 45%;
+color: white;
+border-radius: 25px;
+border: 0.1em solid black;
+
+}
+
+.title__form{
+    width: 100%;
+    font-size: 2.5rem;
+}
 
 .form__container{
     display: flex;
