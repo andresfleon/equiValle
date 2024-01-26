@@ -66,6 +66,14 @@
 
 @media (min-width: 300px) and (max-width:800px){
 
+    .front__page__img{
+        padding: 0.5em;
+        margin-top: 2em;
+        width: 100%;
+        margin-bottom: 10em;
+        z-index: -1;
+    }
+
     .nav__bar__menu {
         display: flex;
         position: fixed;

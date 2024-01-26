@@ -30,6 +30,11 @@
     color: white;
     
 }
+.proposal__valor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .icons__proposal__value{
     color:  white;
@@ -43,4 +48,34 @@
     font-weight: 500;
     color: white;
 
+}
+
+@media (min-width: 300px) and (max-width:1000px){
+    
+
+    .contaniner__pvalue{
+        width: 100%;
+        padding: 0;
+    }
+    .card__pvalue{
+        padding: 0;
+    }
+    .card__pvalue__title{
+        padding-top: 0.5em;
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+   
+
+    .proposal__valor__info{
+        padding: 0.5em;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 200;
+        color: white;
+    
+    }
+
+   
 }

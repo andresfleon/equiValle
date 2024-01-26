@@ -1,4 +1,7 @@
 .faqs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
     gap: 0.5em;
 }
 
@@ -10,12 +13,24 @@
     border-radius: 10px;
     background-color: #009640;
     color: white;
+    width: 65%;
+
   }
 
-  .faqs__item__question{
-    
+  .faqs__item__question{   
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
+    font-weight: 600;
   }
+
+  .icon__faqs{
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
 
   .faqs__items__answer{
     margin-top: 0.5em;
@@ -26,4 +41,16 @@
     width: 100%;
     border: 1px solid white;
    
+  }
+
+  @media (min-width: 300px) and (max-width:800px){
+    .faqs__item{
+     
+      padding:0.;
+    }
+
+    .faqs__item{
+      width: 100%;
+    }
+      
   }
