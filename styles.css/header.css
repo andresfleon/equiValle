@@ -7,6 +7,12 @@
     z-index: 10;
 
 }
+.menu{
+    position: relative;
+    
+    scale:0
+ 
+}
 
 .nav__bar__img{
     
@@ -55,4 +61,45 @@
     margin-top: 2em;
     width: 80%;
     margin-bottom: 2em;
+    z-index: -1;
+}
+
+@media (min-width: 300px) and (max-width:800px){
+
+    .nav__bar__menu {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        top: 6vh;
+        left: 0;
+        justify-content: flex-start;
+        align-items: flex-end;
+        backdrop-filter: blur(15px);
+        height: 94vh;
+        max-height: 564px;
+        overflow-x: auto;
+        transition: transform 0.5s ease-in-out;
+        z-index: 1000;
+        background-color: transparent;
+      }
+
+      .menu  {
+        position: fixed;
+        display: block;
+        cursor: pointer;
+        backdrop-filter: blur(15px);
+        width: 100%;
+        padding: 0%;
+        text-align: right;
+        font-size: 3rem;
+        text-align: end;
+        scale:1;
+
+    
+      }
+
+      .nav--transalate {
+        transform: translateX(1000px);
+      }
+     
 }
