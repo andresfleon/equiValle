@@ -23,6 +23,8 @@
 .product__card__title{
     padding: 0.5em;
     text-align: center;
+    vertical-align: middle;
+    font-size: 1.8rem;
     margin-bottom: 0.5em;
     border-bottom: 2px solid rgba(0, 0, 0, 0.322);
 }

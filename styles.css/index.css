@@ -39,10 +39,10 @@ a{
 }
 .section{
   margin: 10em auto;
-  padding: 3em;
+  padding-top: 5em;
   color: #009640;
   text-align: center;
-  margin-top: 1.5em;
+  margin-top: 2em;
   width: 90%;
 }
 
@@ -52,6 +52,7 @@ a{
   margin-bottom: 0.5em;
   font-weight: 600;
   text-transform: uppercase;
+  text-shadow: 0px 5px 6px rgba(0,0,0,0.28);
 }
 
 .description__us{
@@ -63,6 +64,8 @@ a{
   background-color: #009640;
   color: white;
   border-radius: 25px;
+  box-shadow: 1px 12px 16px 1px rgba(0,0,0,0.75);
+
 }
 
 @media (min-width: 300px) and (max-width:1000px){
