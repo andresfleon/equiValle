@@ -1,0 +1,17 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.img__footer{
+    padding: 2em;
+    
+}
+
+@media (min-width: 300px) and (max-width:800px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

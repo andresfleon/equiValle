@@ -5,6 +5,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 2em;
+    z-index: 1;
 }
 
 .product__card{
@@ -33,4 +34,10 @@
     position: relative;
     bottom: -25px;
         
+}
+
+.products__page{
+    position: relative;
+    top:10vh;
+    z-index: -1;
 }
