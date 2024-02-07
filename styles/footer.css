@@ -88,6 +88,6 @@
     .footer{
         display: flex;
         flex-direction: column;
-        z-index: 2;
+        z-index: -1;
     }
 }

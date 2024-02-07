@@ -63,3 +63,17 @@
     max-width: 150px;
     max-height: 10vh;
 }
+
+@media (min-width: 300px) and (max-width:1000px){
+    .ws__catalog{
+        display: flex;
+        width: 60px;
+        position:fixed;
+        bottom: 30px;    
+        right: 15px;
+        animation: 1.5s ease 0s infinite beat;
+        z-index: 2;
+    }
+
+
+}

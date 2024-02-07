@@ -35,13 +35,18 @@
     animation-range-end: cover 120vh;
     margin-left: 0.3em;
     position: relative;
-    padding: 0.5em;
-    border-radius: 0.2em;
+    padding: 0.2em;
     z-index: 2;
     
+}
+.nav__img__cat{
+    position: relative;
 
-    
-    
+    max-width: 150px;
+    max-height: 10vh;
+    padding: 0.2em;
+    z-index: 2;
+
 }
 
 .nav__bar__menu{
@@ -149,7 +154,8 @@
 
     .nav__contact{
         font-size: 0.8rem;
-        padding-left:9em ;
+        margin-left:3.5em ;
+        padding-left: 7em;
     }
 
     .front__page{
@@ -229,6 +235,14 @@
 
  
       }
+      .nav__img__cat{
+        position: absolute;
+    
+        width: 130px; 
+        padding: 0.2em;
+        z-index: 5;
+    
+    }
 
       
     
