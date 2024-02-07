@@ -1,9 +1,6 @@
-body{
-    position: relative;
- 
-}
+
 .container__products{
-    position: absolute;
+    position: relative;
     margin-top: 3em;
     display: flex;
     justify-content: center;
@@ -48,6 +45,7 @@ body{
     position: relative;
     top:10vh;
     z-index: -1;
+    margin-bottom: 7.5em;
 }
 
 .ws__catalog{
@@ -58,5 +56,11 @@ body{
     bottom: 30px;    
     right: 15px;
     animation: 1.5s ease 0s infinite beat;
+    z-index: 1;
+}
 
+.nav__img__cat{
+    padding-left: 1em;
+    max-width: 150px;
+    max-height: 10vh;
 }

@@ -70,12 +70,14 @@ a{
 }
 
 .ws{
-  position: sticky;
-  width: 70px;
-  bottom: 100px;
-  align-self: flex-end;
-  margin-right: 70px;
+  display: flex;
+  width: 60px;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
   animation: 1.5s ease 0s infinite beat;
+  float: right;
+
 }
 
 @keyframes beat {
@@ -107,12 +109,14 @@ a{
   }
 
   .ws{
-    position: sticky;
+    display: flex;
     width: 60px;
+    position: fixed;
     bottom: 30px;
-    align-self: flex-end;
-    margin-right: 15px;
+    right: 15px;
     animation: 1.5s ease 0s infinite beat;
+    float: right;
+
   }
   
 }

@@ -3,7 +3,8 @@
     grid-template-columns: repeat(4,1fr);
     background-color: #00964191 ;
     padding: 1.5em;
-    z-index: 0;
+    z-index: -1;
+    position: relative;
 
 }
 
@@ -62,6 +63,7 @@
 .footer__list__column3{
     margin-bottom: 1em;
 }
+
 .footer__menu__item a{
     color: black;
     cursor: pointer;
