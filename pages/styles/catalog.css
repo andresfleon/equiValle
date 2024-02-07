@@ -44,7 +44,7 @@
 .products__page{
     position: relative;
     top:10vh;
-    z-index: -1;
+    z-index: 0;
     margin-bottom: 7.5em;
 }
 
@@ -52,11 +52,10 @@
     display: flex;
     width: 60px;
     position:fixed;
-    z-index: 50;
     bottom: 30px;    
     right: 15px;
     animation: 1.5s ease 0s infinite beat;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav__img__cat{
