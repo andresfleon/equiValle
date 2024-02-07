@@ -25,7 +25,22 @@
     <nav class="nav__bar  ">
         <img class="nav__bar__img" src="./assets/equivalle1200.png" alt="">
         <!--img class="nav__bar__img" src="./assets/equivalleLogo.png"alt="logoEquivalle"/-->
-
+        <section class="nav__contact">
+            <ul class="">
+                <li class=""><span class="material-symbols-outlined">
+                    call
+                    </span><a class="nav__contact__a" href="tel:+573187063532">3187063532</a></li>
+                <li class="">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    <a class="nav__contact__a" href="mailto:equivalle04@gmail.com">
+                        equivalle04@gmail.com
+                    </a>
+                </li>
+                
+            </ul>
+         </section>
         <ul class="nav__bar__menu ">
             <li class="nav__menu__item "><a href="#">Inicio</a></li>
             <li class="nav__menu__item"><a href="./pages/catalog.html">Catálogo</a></li>
@@ -41,82 +56,73 @@
             <img class="front__page__img" src="./assets/equivalle1200.png" alt="pendiente" />
         </article>
     </header>
-    <section class="body__sections">
-        <article class="section us">
-            <h2 class="section__title">Que Hacemos</h2>
-            <p class="description__us">Somos una empresa vallecaucana con más de 7 años de experiencia en el sector
-                industrial, especializa en el alquiler de herramientas y maquinaria.</p>
-
-        </article>
-
-        <article class="section proposal__valor">
-            <h2 class="section__title">Propuesta de valor</h2>
-            <ul class="contaniner__pvalue">
-                <li class="card__pvalue">
-                    <h3 class="card__pvalue__title">Respuesta Rapida</h3>
-                    <span class=" icons__proposal__value material-symbols-outlined">
-                        communication
-                    </span>
-                    <p class="proposal__valor__info">Respondemos oportunamente a tus pedidos, preguntas.</p>
-                </li>
-                <li class="card__pvalue">
-                    <h3 class="card__pvalue__title">Puntualidad</h3>
-                    <span class="material-symbols-outlined icons__proposal__value">
-                        acute
-                    </span>
-                    <p class="proposal__valor__info">Nos esforzamos por cumplir los tiempos acordados.</p>
-                </li>
-                <li class="card__pvalue">
-                    <h3 class="card__pvalue__title">Asesoramiento y Servicio</h3>
-                    <span class="icons__proposal__value material-symbols-outlined ">support_agent</span>
-                </li>
-            </ul>
-        </article>
-
-        <article class="section prefer__us">
-            <h2 class="section__title">Ellos nos prefieren</h2>Aqui puede o no ir algunos logos de tus clientes
-            recurrentes
-        </article>
-
-        <article class="section contact__us" id="contact__us">
-            <h2 class="section__title title__form">Cotiza con nosotros</h2>
-            <form class="form__container" action="">
-                <ul class="form__list">
-
-                    <li class="container__info__label">
-                        <label class="form__label__info" for="name" id="name">Nombre</label>
-                        <input class="form__input__info" type="text">
-                    </li>
-                    <li class="container__info__label">
-                        <label class="form__label__info" for="email" id="email">Correo</label>
-                        <input class="form__input__info" type="email">
-                    </li>
-                    <li>
-                    <label class="form__label__info" for="email" id="email">En que producto estas interesa?</label>
-
-                    </li>
-                    
-                    <select class="form__input__info">
-                        <option>Pulidoras</option>
-                        <option>Taladros</option>
-                        <option>Andamios</option>
-                        <option>Maquinaria Pesada</option>
-                        <option>Otro</option>
-                    </select>
-                    <li></li>
-
-                    <li class="container__info__label">
-                        <label class="form__label__info" for="message">Deja tu mensaje</label>
-                        <textarea class="textarea__form"rows="5" cols="21"></textarea>
-                    </li>
-                    <button class="form__btn" type="submit">Enviar</button>
-                </ul>
-
-            </form>
-        </article>
+    <section class="section us">
+        <h2 class="section__title">Que Hacemos</h2>
+        <p class="description__us">Somos una empresa vallecaucana con más de 7 años de experiencia en el sector
+            industrial, especializa en el alquiler de herramientas y maquinaria.</p>
 
     </section>
+    <section class="section proposal__valor">
+        <h2 class="section__title">Propuesta de valor</h2>
+        <ul class="contaniner__pvalue">
+            <li class="card__pvalue">
+                <h3 class="card__pvalue__title">Respuesta Rapida</h3>
+                <span class=" icons__proposal__value material-symbols-outlined">
+                    communication
+                </span>
+                <p class="proposal__valor__info">Respondemos oportunamente a tus pedidos, preguntas.</p>
+            </li>
+            <li class="card__pvalue">
+                <h3 class="card__pvalue__title">Puntualidad</h3>
+                <span class="material-symbols-outlined icons__proposal__value">
+                    acute
+                </span>
+                <p class="proposal__valor__info">Nos esforzamos por cumplir los tiempos acordados.</p>
+            </li>
+            <li class="card__pvalue">
+                <h3 class="card__pvalue__title">Asesoramiento y Servicio</h3>
+                <span class="icons__proposal__value material-symbols-outlined ">support_agent</span>
+                <p class="proposal__valor__info">Brindar la asesoria necesaria de acuerdo al trabajo que necesites.</p>
+            </li>
+        </ul>
+    </section>    
+    
+    <section class="section contact__us" id="contact__us">
+        <h2 class="section__title title__form">Cotiza con nosotros</h2>
+        <form class="form__container" action="">
+            <ul class="form__list">
 
+                <li class="container__info__label">
+                    <label class="form__label__info" for="name" id="name">Nombre</label>
+                    <input class="form__input__info" type="text">
+                </li>
+                <li class="container__info__label">
+                    <label class="form__label__info" for="email" id="email">Correo</label>
+                    <input class="form__input__info" type="email">
+                </li>
+                <li>
+                <label class="form__label__info" for="email" id="email">En que producto estas interesa?</label>
+
+                </li>
+                
+                <select class="form__input__info">
+                    <option>Pulidoras</option>
+                    <option>Taladros</option>
+                    <option>Andamios</option>
+                    <option>Maquinaria Pesada</option>
+                    <option>Otro</option>
+                </select>
+                <li></li>
+
+                <li class="container__info__label">
+                    <label class="form__label__info" for="message">Deja tu mensaje</label>
+                    <textarea class="textarea__form"rows="5" cols="21"></textarea>
+                </li>
+                <button class="form__btn" type="submit">Enviar</button>
+            </ul>
+
+        </form>
+    </section>
     <section class="section faqs">
         <h3 class="section__title">Preguntas Frecuentes</h3>
         <details class="faqs__item">
@@ -183,39 +189,60 @@
         </details>
     </section>
 
+    <a class="ws" href="https://wa.me/573187063532"><img src="./assets/ws.png"/></a>
+
     <hr />
     <footer class="footer">
-        <section>
+        <section class="footer__column1">
             <img  class="img__footer" src="./assets/equivalle1200.png" alt="logoEquivalle"/>
             
         </section>
-        <section>
-            <h3>Menu</h3>
+        <section class="footer__column2">
+            <h3 class="footer__section__title">Menu</h3>
+            <hr class="footer__hr">
             
-            <ul>
-                <li>Inicio</li>
-                <li>Catalogo</li>
-                <li>Contactenos</li>
+            <ul class="footer__list__column2">
+                <li class="footer__menu__item"><a class="linka" href="#">Inicio</a></li>
+                <li class="footer__menu__item"><a class="linka" href="/pages/catalog.html">Catalogo</a></li>
+                <li class="footer__menu__item"><a class="linka" href="#">Contactenos</a></li>
             </ul>
-        </section>
-        <section>
-            <h3>Ubicacion</h3>
-            <ul>
-                <li>
-                    <span></span>
-                    <p>Direccion
-
-                    </p>
-                </li>
-                
+            <h3 class="footer__section__title">Contacto</h3>
+            <hr class="footer__hr">
+            
+            <ul class="footer__list__column2">
+                <li class="footer__menu__item"><span class="material-symbols-outlined">
+                    call
+                    </span><a class="linka" href="tel:+573187063532">3187063532</a></li>
+                    <li class="footer__menu__item"><span class="material-symbols-outlined">
+                        call
+                        </span><a class="linka" href="tel:+573104748178">3104748178</a></li>
+                <li class="footer__menu__item"><span class="material-symbols-outlined">
+                    mail
+                    </span><a class="linka" href="mailto:equivalle04@gmail.com">equivalle04@gmail.com</a></li>
+                <li class="footer__menu__item"></li>
             </ul>
+            
         </section>
-        <section>
-            <h3>Horario de Atencion</h3>
-            <ul>
-                <li><span>Lunes - Viernes</span><span>9:00am - 5:00pm</span></li>
-                <li><span>Sabados</span><span>9:00am - 2:00pm</span></li>
-                <li><span>Domingos y Festivos</span><span>Solo Virtual</span></li>
+        <section class="footer__column3">
+            <h3 class="footer__section__title">Ubicacion <span class="material-symbols-outlined">
+                location_on
+                </span></h3>
+            <hr class="footer__hr">
+            <ul class="footer__list__column3">
+                <li>Cra. 70 # 2A-25 Barrio, Caldas</li>
+                <li><p>Cali,Valle del Cauca</p></li>
+            </ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.92633907414583!2d-76.55162008933587!3d3.3937296427673584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a3e2dec689a3%3A0x1095375e52aa14db!2sCra.%2070%20%23%202A-25%2C%20La%20Cascada%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1707292711302!5m2!1ses!2sco" width="70%" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="footer__column4">
+            <h3 class="footer__section__title">Horario de Atencion <span class="material-symbols-outlined">
+                schedule
+                </span></h3>
+            <hr class="footer__hr">
+            <ul class="footer__list__column4">
+                <li class="footer__schedule__item"><span class="schedule__label">Lunes - Viernes</span><span class="schedule__value">9:00am - 5:00pm</span></li>
+                <li class="footer__schedule__item"><span class="schedule__label">Sabados</span><span class="schedule__value">9:00am - 2:00pm</span></li>
+                <li class="footer__schedule__item"><span class="schedule__label">Domingos y Festivos</span><span class="schedule__value">Solo Virtual</span></li>
             </ul>
         </section>
     </footer>

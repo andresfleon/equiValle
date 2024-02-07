@@ -1,3 +1,7 @@
+body{
+    position: relative;
+ 
+}
 .container__products{
     position: absolute;
     margin-top: 3em;
@@ -6,6 +10,10 @@
     flex-wrap: wrap;
     gap: 2em;
     z-index: 1;
+}
+
+.nav__bar__img__cat{
+    max-width: 150px;
 }
 
 .product__card{
@@ -40,4 +48,15 @@
     position: relative;
     top:10vh;
     z-index: -1;
+}
+
+.ws__catalog{
+    display: flex;
+    width: 60px;
+    position:fixed;
+    z-index: 50;
+    bottom: 30px;    
+    right: 15px;
+    animation: 1.5s ease 0s infinite beat;
+
 }

@@ -1,17 +1,91 @@
 .footer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    background-color: #00964191 ;
+    padding: 1.5em;
+    z-index: 0;
 
 }
 
+.linka{
+    cursor: pointer;
+    vertical-align: super;
+
+
+}
 .img__footer{
     padding: 2em;
+    text-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    filter:drop-shadow(1px 1px 2px #000000)
+}
+
+.footer__column1,.footer__column2,.footer__column3,.footer__column4{
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__section__title{
     
+    padding-top: 1.5em;
+    
+    padding-bottom: 0 ;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer__hr{
+    padding: 0;
+    border: none;
+    margin: 0;    
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.443);
+    border-radius: 15em;
+    margin-bottom: 0.5em;
+   
+}
+
+
+.footer__list__column2,
+.footer__list__column3,
+.footer__list__column4{
+    padding-left: 0.5em;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2em;
+    
+} 
+
+.footer__list__column3{
+    margin-bottom: 1em;
+}
+.footer__menu__item a{
+    color: black;
+    cursor: pointer;
+
+}
+.footer__schedule__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule__label{
+    font-weight: 500;
+    font-size: 1rem;
+    
+}
+
+.schedule__value{
+    font-weight: 200;
 }
 
 @media (min-width: 300px) and (max-width:800px){
     .footer{
         display: flex;
         flex-direction: column;
+        z-index: 2;
     }
 }
